@@ -1,0 +1,30 @@
+.formContainer {
+  margin: 2rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer input:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.formContainer button {
+  align-self: center;
+}
+
+.infoContainer {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 380px) {
+  .formContainer {
+    margin: 2.5rem 0;
+  }
+  .infoContainer {
+    font-size: 1.4rem;
+  }
+}

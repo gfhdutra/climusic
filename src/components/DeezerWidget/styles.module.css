@@ -1,0 +1,26 @@
+.deezerWidget {
+  max-width: 700px;
+  width: 95%;
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.saveText {
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem;
+}
+
+@media screen and (max-width: 380px) {
+  .formContainer {
+    margin: 2.5rem 0;
+  }
+  .title,
+  .saveText {
+    font-size: 1.4rem;
+  }
+}

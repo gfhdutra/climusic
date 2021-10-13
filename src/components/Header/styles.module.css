@@ -1,0 +1,15 @@
+.navbar {
+  width: 100%;
+}
+
+.button {
+  font-size: 1rem;
+}
+
+.nav {
+  margin-left: auto !important;
+}
+
+.active {
+  color: #fff !important;
+}
